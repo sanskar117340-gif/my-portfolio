@@ -1,20 +1,22 @@
-body{
-    background-color:beige;
-    color: rgb(79, 79, 0);
+body {
+    background-color: #f5f7f6;
+    color: #263238;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
-header{
-    background-color: rgb(79, 79, 0);
-    color: beige;
+
+header {
+    background-color: #17221f;
+    color: #ffffff;
     padding: 20px;
-    
 }
+
 .hearder-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-bar ul {
     list-style: none;
     margin: 0;
@@ -23,15 +25,11 @@ header{
     justify-content: center;
     gap: 20px;
 }
+
 .nav-bar a {
-    color: beige;
-    text-decoration: none;
-}
-.nav-bar a {
-    color: beige;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-    
 }
 
 .nav-bar ul {
@@ -39,45 +37,73 @@ header{
     margin: 0;
     padding: 10px 0;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.nav-bar a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-bar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
     align-items: center;
     gap: 20px;
 }
 
 .search-bar form {
     display: flex;
-    align-items: right;
+    align-items: center;
     gap: 10px;
     margin: 0;
 }
 
-
 .search-bar button {
-    vertical-align: rig
+    vertical-align: middle;
 }
+
 .about-container,
 .projects-container,
 .skills-container,
 .contact-container,
 .education-container {
-    background-color: rgb(79, 79, 0);
-    color: beige;
-    border-radius: 10px;
+    background-color: #ffffff;
+    color: #245c4a;
+    border-radius: 12px;
     padding: 2rem;
     margin: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 15px rgba(23, 34, 31, 0.15);
+    border-left: 5px solid #2e8b70;
 }
- <link rel="stylesheet" href="css/style.css">
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+article a{
+    color: #2e8b70;
+    font-weight: 1rem;
+    font-weight:bolder;
+    text-decoration: none;
+}
+article a:hover{
+    color: #2e3d8b;
+    text-decoration: underline;
+}
+.projects-container article:hover {
+    transform: translateY(-5px);
+}
+.projects-container article:hover {
+    transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+            }
+.about-container {
+        flex-direction: column;
+    }
+    search-bar form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
