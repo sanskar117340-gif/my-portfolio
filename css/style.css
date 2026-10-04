@@ -41,15 +41,9 @@ header {
     gap: 20px;
 }
 
-.search-bar form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-}
-
-.search-bar button {
-    vertical-align: middle;
+main{
+    max-width: 1100px;
+    margin:2rem auto;
 }
 
 .about-container,
@@ -64,13 +58,7 @@ header {
     margin: 2rem;
     box-shadow: 0 6px 15px rgba(23, 34, 31, 0.15);
     border-left: 5px solid #2e8b70;
-    margin-bottom: 5rem;
-}
-
-.about-container {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
+    
 }
 
 article a{
@@ -89,6 +77,14 @@ article a:hover{
 .projects-container article:hover {
     transform: translateY(-5px);
 }
+
+.about-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -99,11 +95,38 @@ article a:hover{
 .about-container {
         flex-direction: column;
     }
-   
+
     
 }
 @media (min-width: 769px) and (max-width: 1024px) {
 
+}
+@media (max-width: 768px) {
+
+    .education-container,
+    .contact-container {
+        margin: 1rem;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .education-container table {
+        width: 100%;
+        table-layout: fixed;
+        font-size: 12px;
+    }
+
+    .education-container td,
+    .education-container th {
+        padding: 5px;
+        word-wrap: break-word;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 
