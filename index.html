@@ -4,169 +4,172 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sanskar Aryal - Portfolio</title>
+   
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js" defer></script>
 </head>
 <body>
     <header>
         <div class="header-container">
             <img src="images/logo.jpg" alt="Logo" width="100" height="80">
-            
-        </div>
-        <div class="nav-search-container">
-            <div class="nav-bar">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="search-bar">
-                <form>
-                    <input type="text" placeholder="Search..." aria-label="Search">
-                    <button type="submit">Search</button>
-                </form>
+            <div class="nav-search-container">
+                <div class="nav-bar">
+                    <nav aria-label="Main navigation">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="search-bar">
+                    <form>
+                        <input type="text" placeholder="Search..." aria-label="Search">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
 
+    <section id="home" class="hero">
+        <h1>Sanskar Aryal</h1>
+        <p>3D animation and VFX student from Kathmandu, Nepal.</p>
+        <a class="btn" href="#projects">View my projects</a>
+    </section>
+
     <main>
-
-
         <section id="about">
             <div class="about-container">
                 <div class="about-text">
                     <h2>About me</h2>
-                    <p>My name is Sanskar Aryal, and I am a 20-year-old student from Nepal. I am currently studying BIT at Model Institute of Technology in Kathmandu. I am interested in technology, artificial intelligence, animation, VFX, UI/UX design, and cybersecurity, and I am working toward building a creative and successful career in these fields.
-                         I enjoy learning new skills, working on creative projects, playing football and video games, and spending time with the people I care about. I am also a big football fan, especially of FC Barcelona and Lionel Messi. I consider myself ambitious and curious, and I always want to improve myself, learn from my experiences, and create a better future through my skills and hard work.</p>
+                    <p>My name is Sanskar Aryal, and I am a 20-year-old student from Nepal. I am currently studying BIT at Model Institute of Technology in Kathmandu. I am interested in technology, artificial intelligence, animation, VFX, UI/UX design, and cybersecurity, and I am working toward building a creative and successful career in these fields.</p>
+                    <p>I enjoy learning new skills, working on creative projects, playing football and video games, and spending time with the people I care about. I am also a big football fan, especially of FC Barcelona and Lionel Messi. I consider myself ambitious and curious, and I always want to improve myself, learn from my experiences, and create a better future through my skills and hard work.</p>
                 </div>
                 <img src="images/profile.png" alt="Profile Picture" width="200" height="200">
-
-
             </div>
+        </section>
+
+        <section id="skills">
             <div class="skills-container">
                 <div class="skills-text">
-
-                <h2>My Skills</h2>
-            <p>In my project, I have created several 3D animations using different modeling and animation techniques. Some of the main projects I worked on include a medieval sword and a NASCAR 3D car. I created the models, added materials and textures, and then animated them to make the objects look more realistic and interesting.</p>
-            <p>For the medieval sword, I focused on creating the shape and details of the sword and making the animation look smooth. For the NASCAR 3D project, I worked on creating a racing car and used animation and camera movements to give it a more dynamic look. Through these projects, I learned more about 3D modeling, texturing, lighting, animation, and rendering. These projects also helped me improve my creativity and understand how 3D objects can be designed and animated.</p>
+                    <h2>My skills</h2>
+                    <ul class="chips">
+                        <li>3D modeling</li>
+                        <li>Texturing</li>
+                        <li>Lighting</li>
+                        <li>Animation</li>
+                        <li>Rendering</li>
+                        <li>Blender</li>
+                    </ul>
+                    <p>In my project, I have created several 3D animations using different modeling and animation techniques. Some of the main projects I worked on include a medieval sword and a NASCAR 3D car. I created the models, added materials and textures, and then animated them to make the objects look more realistic and interesting.</p>
+                    <p>For the medieval sword, I focused on creating the shape and details of the sword and making the animation look smooth. For the NASCAR 3D project, I worked on creating a racing car and used animation and camera movements to give it a more dynamic look. Through these projects, I learned more about 3D modeling, texturing, lighting, animation, and rendering. These projects also helped me improve my creativity and understand how 3D objects can be designed and animated.</p>
+                </div>
+            </div>
         </section>
-    </div>
-</div>
-    
+
+        <section id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="slider">
+                <div class="slider-track">
+                    <div class="slide"><img src="images/car.png" alt="Facebook logo"></div>
+                    <div class="slide"><img src="images/sword.png" alt="Instagram logo"></div>
+                    <div class="slide"><img src="images/person.avif" alt="LinkedIn logo"></div>
+                    <div class="slide"><img src="images/game.jpg" alt="My logo"></div>
+                    <div class="slide"><img src="images/environment.jpg" alt="My profile picture"></div>
+                </div>
+                <button class="slider-btn prev" aria-label="Previous slide">&#10094;</button>
+                <button class="slider-btn next" aria-label="Next slide">&#10095;</button>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
 
         <section id="projects">
-           
-            <div class="projects-container">
-                <div class="projects-text">
-                    
-                
- <h1>My Projects</h1>
-            <article>
-                <h3>The Sword in the Stone</h3>
-                <p>A cinematic 3D scene of a glowing red runed sword lodged in a rock inside a misty cave. Lightning arcs along the blade, and a warrior character walks up to it. The project covers modeling, lighting with volumetric light rays, effects, and character animation.</p>
-                <p><strong>Software:</strong> Blender</p>
-                <a href="https://github.com/sanskar117340-gif/my-portfolio" target="_blank">Click here</a>
-            </article>
-            </div>
-            </div>
-             <div class="projects-container">
-                <div class="projects-text">
-
-            <article>
-                <h3>Nascar Animation</h3>
-                <p>A 10-second racing sequence on a banked oval track. It starts as a grey viewport and reveals the final render, with fast camera movement, motion blur, and fog. The project covers scene setup, car animation, lighting, and rendering.</p>
-                <p><strong>Software:</strong> Blender</p>
-                <a href="https://github.com/sanskar117340-gif/my-portfolio" target="_blank">Click here</a>
-            </article>
+            <h2 class="section-title">My projects</h2>
+            <div class="projects-grid">
+                <div class="projects-container">
+                    <div class="projects-text">
+                        <article>
+                            <h3>The Sword in the Stone</h3>
+                            <p>A cinematic 3D scene of a glowing red runed sword lodged in a rock inside a misty cave. Lightning arcs along the blade, and a warrior character walks up to it. The project covers modeling, lighting with volumetric light rays, effects, and character animation.</p>
+                            <p><strong>Software:</strong> Blender</p>
+                            <a href="https://github.com/sanskar117340-gif/my-portfolio" target="_blank" rel="noopener">Click here</a>
+                        </article>
+                    </div>
                 </div>
+                <div class="projects-container">
+                    <div class="projects-text">
+                        <article>
+                            <h3>Nascar Animation</h3>
+                            <p>A 10-second racing sequence on a banked oval track. It starts as a grey viewport and reveals the final render, with fast camera movement, motion blur, and fog. The project covers scene setup, car animation, lighting, and rendering.</p>
+                            <p><strong>Software:</strong> Blender</p>
+                            <a href="https://github.com/sanskar117340-gif/my-portfolio" target="_blank" rel="noopener">Click here</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="education">
             <div class="education-container">
                 <div class="education-text">
-                 
-            <h2>Education</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>S.No</th>
-                        <th>Level</th>
-                        <th>Institution</th>
-                        <th>Grade</th>
-                        <th>GPA</th>
-                        <th>Completion Date</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>School</td>
-                        <td>Jugal School</td>
-                        <td>A</td>
-                        <td>3.45</td>
-                        <td>2022</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>High School</td>
-                        <td>Global College Of Management</td>
-                        <td>A</td>
-                        <td>3.57</td>
-                        <td>2024</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Undergraduate</td>
-                        <td>Model Institute of Technology</td>
-                        <td>Ongoing</td>
-                        <td>Ongoing</td>
-                        <td>Ongoing</td>
-                    </tr>
-                </tbody>
-            </table>
-            </div>
+                    <h2>Education</h2>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Level</th>
+                                    <th>Institution</th>
+                                    <th>Grade</th>
+                                    <th>GPA</th>
+                                    <th>Completion Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>1</td><td>School</td><td>Jugal School</td><td>A</td><td>3.45</td><td>2022</td></tr>
+                                <tr><td>2</td><td>High School</td><td>Global College Of Management</td><td>A</td><td>3.57</td><td>2024</td></tr>
+                                <tr><td>3</td><td>Undergraduate</td><td>Model Institute of Technology</td><td>Ongoing</td><td>Ongoing</td><td>Ongoing</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="contact-container">
                 <div class="contact-text">
-            <h2 class="centered">Contact Me</h2>
-            <form>
-                <p>
-                    <label for="email"><b>Email</b></label><br>
-                    <input type="text" id="email" name="email" placeholder="example@....">
-                </p>
-                <p>
-                    <label for="message"><b>Message:</b></label><br>
-                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..."></textarea>
-                </p>
-                <button type="submit">Submit</button>
-            </form>
+                    <h2>Contact me</h2>
+                    <form>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com">
+                        </p>
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+                        </p>
+                        <button type="submit">Send message</button>
+                    </form>
+                </div>
             </div>
-            </div>
-        </section>
-    
-
-    <footer>
-        <center>
-        <section class="centered">
-            <h2>Find me on</h2>
-            <p class="social-links">
-                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="50" height="50"></a>
-                <a href="https://www.facebook.com/"><img src="images/fb.jpg" alt="Facebook" width="50" height="50"></a>
-                <a href="https://www.linkedin.com/"><img src="images/Li.webp" alt="LinkedIn" width="50" height="50"></a>
-                <a href="https://www.whatsapp.com/"><img src="images/whatsapp.avif" alt="WhatsApp" width="50" height="50"></a>
-            </p>
-            <p>&copy; 2026 Sanskar Aryal. All rights reserved</p>
-        </center>
         </section>
     </main>
+
+    <footer>
+        <h2>Find me on</h2>
+        <p class="social-links">
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" width="50" height="50"></a>
+            <a href="https://www.facebook.com/"><img src="images/fb.jpg" alt="Facebook" width="50" height="50"></a>
+            <a href="https://www.linkedin.com/"><img src="images/Li.webp" alt="LinkedIn" width="50" height="50"></a>
+            <a href="https://www.whatsapp.com/"><img src="images/whatsapp.avif" alt="WhatsApp" width="50" height="50"></a>
+        </p>
+        <p class="copy">&copy; 2026 Sanskar Aryal. All rights reserved.</p>
     </footer>
 </body>
 </html>
